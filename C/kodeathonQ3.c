@@ -10,7 +10,8 @@ int main()
     scanf("%d", &testCases);
     while(testCases--)
     {
-        int newNumber=0;
+        int newNumber = 0;
+        
         //Handling inputs from the user
         printf("Enter the number of digits. \n");
         scanf("%d", &digits);
