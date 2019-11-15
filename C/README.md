@@ -3,7 +3,7 @@ Only C related stuff.
 
 
 ## Kodeathon-A4
-Q3. We had to find the password to unlock the gate. We were a given a number input and a function from which the new number was to be formed. The function input consisted of a 9 digit numeric function from which we had to compare the indexes and form the new number, only condition that applied was that the number to be formed should be the largest one to be formed using  this operation not more than once.
+Q3. We had to find the password to unlock the gate. We were a given an integral input and a function from which the new number was to be formed. The input function consisted of a 9 digit numeric function on which we had to apply the function operation and extract the password, only condition was that the number should be the largest possible one to be formed using this operation not more than once.
 
 Eg:
 
