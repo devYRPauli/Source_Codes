@@ -1,21 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define loi unsigned long long
-// Function to print the divisors
+
 set<loi> printDivisors(loi n)
 {
     set<loi> s;
 
-	// Note that this loop runs till square root
 	for (loi i=1; i<=sqrt(n); i++)
 	{
 		if (n%i == 0)
 		{
-			// If divisors are equal, print only one
 			if (n/i == i)
 				s.insert(i);
-
-			else // Otherwise print both
+			else
 				s.insert(i), s.insert(n / i);
 		}
 	}
@@ -23,7 +20,6 @@ set<loi> printDivisors(loi n)
 	return s;
 }
 
-/* Driver program to test above function */
 int main()
 {
 loi t;
@@ -48,12 +44,11 @@ while(t--)
     {
         if((*it) == 1)
             continue;
-
-
-        else{
-
+	    
+        else
+	{
             if(((*it) - 1) % A == 0)
-            {
+	    {
                cnt++;
                loi y = *it;
 
@@ -62,17 +57,17 @@ while(t--)
 
                if(y == M)
                {
-                   ans = (M - 1) / A;
+		       ans = (M - 1) / A;
                }
 
-               else{
-               ans = (y - 1) / A;
-
-               ans *= (M / y);
-               }
+               else
+	       {
+		       ans = (y - 1) / A;
+		       ans *= (M / y);
+	       }
 
                s1.insert(ans);
-        }
+	    }
         }
     }
 
