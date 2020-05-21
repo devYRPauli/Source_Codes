@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define loi long long
 
 int main()
 {
