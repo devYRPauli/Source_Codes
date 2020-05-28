@@ -1,7 +1,7 @@
 # Login Forms
 
-## 1. Basic Form
+## 1. Animated Form-2
 
 ## 2. Animated Form
 
-## 3. Animated Form-2
+## 3. Basic Form
