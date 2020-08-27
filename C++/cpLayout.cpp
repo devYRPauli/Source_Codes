@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define loi long long
+typedef long long loi;
 
 int main()
 {
